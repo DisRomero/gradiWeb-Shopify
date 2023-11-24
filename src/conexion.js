@@ -19,7 +19,8 @@ axios.get(productsRquest, {
 
             return {
                 id: product.id,
-                title: product.title,
+                price: product.price,
+                status: product.stastatus,
                 createdAt: formattedDate,
             };
         });
